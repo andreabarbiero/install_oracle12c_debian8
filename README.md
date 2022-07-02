@@ -41,7 +41,7 @@ E NELLO SCRIPT AGGIUNGERE ALLA RIGA 82 IL COMANDO wget http://ip_del_vostro_web_
 
 # CONNETTERSI AL DATABASE
 
-Host: indirizzo ip del server dove lo avete installato
+Host: indirizzo ip del server Oracle 12c
 
 Porta: 1521
 
