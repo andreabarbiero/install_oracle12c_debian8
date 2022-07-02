@@ -36,3 +36,14 @@ chmod +x install_debain8.sh
 
 NOTA: PER RENDERE LO SCRIPT COMPLETAMENTE AUTOMATICO, POTETE ATTIVARE UN SERVER HTTP LOCALE NEL QUALE DEPOSITATE IL FILE linuxx64_12201_database.zip,
 E NELLO SCRIPT AGGIUNGERE ALLA RIGA 82 IL COMANDO wget http://ip_del_vostro_web_server/linuxx64_12201_database.zip IN QUESTO MODO NON DOVRETE ACCEDERE ALL'HOST PER COPIARE IL FILE MANUALMENTE.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+# CONNETTERSI AL DATABASE
+
+Host: indirizzo ip del server dove lo avete installato
+Porta: 1521
+Database: ORCL
+utente: system
+password: oracle123
+
