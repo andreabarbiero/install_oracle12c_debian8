@@ -42,8 +42,13 @@ E NELLO SCRIPT AGGIUNGERE ALLA RIGA 82 IL COMANDO wget http://ip_del_vostro_web_
 # CONNETTERSI AL DATABASE
 
 Host: indirizzo ip del server dove lo avete installato
+
 Porta: 1521
+
 Database: ORCL
+
 utente: system
+
 password: oracle123
+
 
