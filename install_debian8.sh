@@ -6,6 +6,14 @@
 #                                                              #
 ################################################################
 
+#####################################################################################################################
+#                                  IMPORTANTE PER IL CORRETTO FUNZIONAMENTO!                                        #
+#                                                                                                                   #
+# CREATE IL PATH /home/oracle E COPIATE ALL'INTERNO IL FILE linuxx64_12201_database.zip PRIMA DI ESEGUIRE LO SCRIPT #
+#                                                                                                                   #
+#####################################################################################################################
+
+
 # Commento il link al repository del CDROM di installazione
 sed -i 's/deb cdrom:/#deb cdrom:/g' /etc/apt/sources.list
 
@@ -71,9 +79,6 @@ chown -R oracle:oinstall /u01/
 
 # Mi sposto nel path /home/oracle
 cd /home/oracle/
-
-# Effettuo il download del file linuxx64_12201_database.zip che contiene i file di installazione 
-wget http://35.233.92.209/linuxx64_12201_database.zip
 
 # Assegno l'utente oracle come proprietario del file e come gruppo oinstall
 chown -R oracle:oinstall /home/oracle/linuxx64_12201_database.zip
