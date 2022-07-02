@@ -4,9 +4,6 @@ script per automatizzare l'installazione di Oracle 12c  nella modalità silente
 # Pre-requisiti
 Essere in possesso del file linuxx64_12201_database.zip
 
-# Link per scaricare il file
-https://drive.google.com/file/d/1pBx2F0r8fTzb1fpUzdHluD6OE457Ylwc/view
-
 # Nel file /etc/hosts deve essere settato l'indirizzo ip assegnato al server come nell'esempio di seguito
 
 root@oracle12c:~# cat /etc/hosts
