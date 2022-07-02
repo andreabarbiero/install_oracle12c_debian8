@@ -29,3 +29,4 @@ chmod +x install_debain8.sh
 
 ./install_debain8.sh
 
+NOTA: il file .zip che contiene i file di installazione viene scaricato tramite wget da un link esterno, qual'ora il link non fosse disponibile lo script non funzionerà. Consiglio di scaricare in locale lo zip dal link http://35.233.92.209/linuxx64_12201_database.zip e di consequenza modificare lo script.
