@@ -10,15 +10,19 @@ root@oracle12c:~# cat /etc/hosts
 192.168.1.195	oracle12c.localdomain	oracle12c
 
 #The following lines are desirable for IPv6 capable hosts
+
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # Verificare che la versione del S.O. e del Kernel siano le seguenti
 root@oracle12c:~# uname -a
+
 Linux oracle12c 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1+deb8u1 (2018-05-08) x86_64 GNU/Linux
 
 # A questo punto potete copiare il file install_debain8.sh nella nella cartella /root ed eseguire i comandi seguenti come utente root
+
 chmod +x install_debain8.sh
+
 ./install_debain8.sh
 
