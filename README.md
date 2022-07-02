@@ -7,12 +7,15 @@ script per automatizzare l'installazione di Oracle 12c  nella modalità silente
 root@oracle12c:~# cat /etc/hosts
 
 127.0.0.1	localhost
+
 192.168.1.195	oracle12c.localdomain	oracle12c
 
 #The following lines are desirable for IPv6 capable hosts
 
 ::1     localhost ip6-localhost ip6-loopback
+
 ff02::1 ip6-allnodes
+
 ff02::2 ip6-allrouters
 
 # Verificare che la versione del S.O. e del Kernel siano le seguenti
