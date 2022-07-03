@@ -14,7 +14,8 @@
 # A QUESTO PUNTO DOVETE INSERIRE NEL COMANDO WGET L'IP DEL VOSTRO SERVER HTTP                                           #
 # Es. wget http://ip_del_vostro_pc:8000/linuxx64_12201_database.zip ALLA RIGA 82 DI QUESTO SCRIPT                       #
 #                                                                                                                       #  
-#                                                                                                                       #
+#    DOWNLOAD DEL FILE .ZIP PER L'INSTALLAZIONE                                                                         #
+#    https://drive.google.com/file/d/1pBx2F0r8fTzb1fpUzdHluD6OE457Ylwc/view?usp=sharing                                 #
 ######################################################################################################################### 
 
 
