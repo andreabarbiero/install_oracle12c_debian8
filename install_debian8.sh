@@ -10,9 +10,9 @@
 #                                  IMPORTANTE PER IL CORRETTO FUNZIONAMENTO!                                            #
 #                                                                                                                       #
 # DAL VOSTRO TERMINALE ANDATE NEL PATH DOVE È PRESENTE IL FILE linuxx64_12201_database.zip E LANCIATE IL COMANDO        #
-# SEGUENTE python3 -m http.server QUESTO COMANDO GENERA UN SERVER HTTP IN ASCOLTO ALL'INDIRIZZO http://0.0.0.0:8080/    #
+# SEGUENTE python3 -m http.server QUESTO COMANDO GENERA UN SERVER HTTP IN ASCOLTO ALL'INDIRIZZO http://0.0.0.0:8000/    #
 # A QUESTO PUNTO DOVETE INSERIRE NEL COMANDO WGET L'IP DEL VOSTRO SERVER HTTP                                           #
-# Es. wget http://ip_del_vostro_pc:8080/linuxx64_12201_database.zip ALLA RIGA 82 DI QUESTO SCRIPT                       #
+# Es. wget http://ip_del_vostro_pc:8000/linuxx64_12201_database.zip ALLA RIGA 82 DI QUESTO SCRIPT                       #
 #                                                                                                                       #  
 #                                                                                                                       #
 ######################################################################################################################### 
@@ -85,7 +85,7 @@ chown -R oracle:oinstall /u01/
 cd /home/oracle/
 
 # Scarico il pacchetto di installazione nella directory /home/oracle
-wget http://IP_DEL_VOSTRO_PC:8080/linuxx64_12201_database.zip
+wget http://IP_DEL_VOSTRO_PC:8000/linuxx64_12201_database.zip
 
 # Assegno l'utente oracle come proprietario del file e come gruppo oinstall
 chown -R oracle:oinstall /home/oracle/linuxx64_12201_database.zip
