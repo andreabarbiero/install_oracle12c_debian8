@@ -6,12 +6,15 @@
 #                                                              #
 ################################################################
 
-#####################################################################################################################
-#                                  IMPORTANTE PER IL CORRETTO FUNZIONAMENTO!                                        #
-#                                                                                                                   #
-# CREATE IL PATH /home/oracle E COPIATE ALL'INTERNO IL FILE linuxx64_12201_database.zip PRIMA DI ESEGUIRE LO SCRIPT #
-#                                                                                                                   #
-#####################################################################################################################
+#########################################################################################################################
+#                                  IMPORTANTE PER IL CORRETTO FUNZIONAMENTO!                                            #
+#                                                                                                                       #
+# DAL VOSTRO TERMINALE ANDATE NEL PATH DOVE È PRESENTE IL FILE linuxx64_12201_database.zip E LANCIATE IL COMANDO        #
+# SEGUENTE python3 -m http.server QUESTO COMANDO GENERA UN SERVER HTTP IN ASCOLTO ALL'INDIRIZZO http://localhost:8080/  #
+# A QUESTO PUNTO IL COMANDO wget http://localhost:8080/linuxx64_12201_database.zip ALLA RIGA 82 SARÀ IN GRADO DI        #
+# SCARICARE IL PROGRAMMA.                                                                                               #
+#                                                                                                                       #
+######################################################################################################################### 
 
 
 # Commento il link al repository del CDROM di installazione
@@ -79,6 +82,9 @@ chown -R oracle:oinstall /u01/
 
 # Mi sposto nel path /home/oracle
 cd /home/oracle/
+
+# Scarico il pacchetto di installazione nella directory /home/oracle
+wget http://localhost:8080/linuxx64_12201_database.zip
 
 # Assegno l'utente oracle come proprietario del file e come gruppo oinstall
 chown -R oracle:oinstall /home/oracle/linuxx64_12201_database.zip
