@@ -18,6 +18,9 @@
 #    https://drive.google.com/file/d/1pBx2F0r8fTzb1fpUzdHluD6OE457Ylwc/view?usp=sharing                                 #
 ######################################################################################################################### 
 
+# dal vostro pc lanciate un terminale, andate nel path dove è presente il file di installazione ed eseguite il comando python3 -m http.server
+# impostate l'indirizzo ip del vostro computer nella variabile seguente.
+ip="IL_VOSTRO_INDIRIZZO_IP"
 
 # Commento il link al repository del CDROM di installazione
 sed -i 's/deb cdrom:/#deb cdrom:/g' /etc/apt/sources.list
@@ -86,7 +89,7 @@ chown -R oracle:oinstall /u01/
 cd /home/oracle/
 
 # Scarico il pacchetto di installazione nella directory /home/oracle
-wget http://IP_DEL_VOSTRO_PC:8000/linuxx64_12201_database.zip
+wget http://${ip}:8000/linuxx64_12201_database.zip
 
 # Assegno l'utente oracle come proprietario del file e come gruppo oinstall
 chown -R oracle:oinstall /home/oracle/linuxx64_12201_database.zip
