@@ -27,7 +27,7 @@ Linux oracle12c 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1+deb8u1 (2018-05-08) x86_6
 
 # Nel file install_debian8.sh dovete impostare il vostro indirizzo ip nella variabile ip e salvare il file.
 
-# A questo punto potete copiare il file install_debain8.sh nella nella cartella /root ed eseguire i comandi seguenti come utente root
+# A questo punto potete copiare il file install_debain8.sh nella cartella /root ed eseguire i comandi seguenti come utente root
 
 chmod +x install_debain8.sh
 
