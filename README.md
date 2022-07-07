@@ -50,4 +50,5 @@ utente: system
 
 password: oracle123
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WE_F2y-UWsc/0.jpg)](https://www.youtube.com/watch?v=WE_F2y-UWsc)
 
